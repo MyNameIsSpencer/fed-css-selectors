@@ -44,13 +44,14 @@ header {
   text-align: right;
 }
 
-#advanced-selectors ol li{
+#advanced-selectors ol > li{
   padding: 15px;
   background-color: grey;
 }
 
 #advanced-selectors ul li{
   padding: 0px;
+  background-color: turquoise;
   text-decoration: none;
 }
 
@@ -59,7 +60,7 @@ header {
   color: red;
 }
 
-#advanced-selector title.Bitmaker a:hover {
+#advanced-selector a[title]:hover {
     text-decoration: none;
 }
 
