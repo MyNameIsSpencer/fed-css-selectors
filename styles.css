@@ -44,30 +44,39 @@ header {
   text-align: right;
 }
 
-#advanced-selectors ol > li{
+ol > li{
   padding: 15px;
   background-color: grey;
 }
 
-#advanced-selectors ul li{
-  padding: 0px;
-  background-color: turquoise;
-  text-decoration: none;
-}
-
-#advanced-selector ol li:nth-child(2n+1) {
+ol > li:nth-child(odd) {
   background-color: green;
   color: red;
 }
 
-#advanced-selector a[title]:hover {
-    text-decoration: none;
+.sub-list{
+  opacity: 1;
+  background-color: #ffffff;
+  text-decoration: none;
 }
 
-#advanced-selector ul li:hover {
+.Bitmaker:hover {
+  text-decoration: none;
+}
+
+li > a:hover {
   background-color: yellow;
 }
 
-#advanced-selector ul li:active {
+li > a:active {
   background-color: red;
 }
+
+
+/*#advanced-selector ul li:hover {*/
+  /*background-color: yellow;*/
+/*}*/
+
+/*#advanced-selector ul li:active {*/
+  /*background-color: red;*/
+/*}*/
